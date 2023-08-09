@@ -1,0 +1,118 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header styles */
+  ion-header {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  ion-toolbar ion-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  form {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  form ion-item {
+    margin-top: 0.5rem;
+  }
+  
+  form ion-button {
+    margin-top: 1rem;
+  }
+  
+  form h2 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Input styles */
+  ion-input {
+    --padding-start: 0.5rem;
+    --padding-end: 0.5rem;
+    
+  }
+  
+  /* Button styles */
+  ion-button {
+    --background: #0fc457 ;
+    --background-activated: #27ae60;
+    --background-hover: #2ecc71;
+    --border-radius: 5px;
+    --color: #ffffff;
+    --color-activated: #fff;
+    --color-hover: #fff;
+    --padding-start: 1rem;
+    --padding-end: 1rem;
+  }
+
+  ion-fab-button{
+    --background: #0fc457 ;
+    --color: #ffffff;
+  }
+
+ 
+    ion-item {
+      --highlight-color-focused: #2ecc71;
+      
+       
+    }
+    custome-input {
+      caret-color:  #2ecc71;
+    }
+
+  /* .reset-button { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 20%;
+    --background: #2ecc71;
+    --background-activated: #27ae60;
+    --background-hover: #2ecc71;
+    --border-radius: 5px;
+    --color: #ffffff;
+    --color-activated: #fff;
+    --color-hover: #fff;
+    --padding-start: 1rem;
+    --padding-end: 1rem;
+  } */
+  
+  /* Balance styles */
+  h2 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    margin: 1rem 0;
+    font-size: 1rem;
+   
+    text-align: center;
+  }
+  .dateStyle{
+    margin: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+  }
+   
+  
