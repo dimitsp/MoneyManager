@@ -1,7 +1,8 @@
 {
-  "name": "MoneyManager",
+  "name": "Money Manager",
   "integrations": {
     "capacitor": {}
   },
   "type": "react"
 }
+
